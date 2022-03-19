@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("OpenType");
+}
+html{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: white;
+    width: 21cm;
+    height: 29.7cm;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+    font-family: "OpenSans";
+}
+#g{
+    font-weight: bold;
+    background-color: #006391;
+    width: 33%;
+    padding: 20px;
+    color: white;
+}
+#d{
+    background-color: white;
+    width: 67%;
+    padding: 20px;
+}
+#d p{
+
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#d .intro{
+    width: 95%;
+}
+svg{
+    fill: white;
+    width: 20px;
+    margin-right: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#pp{
+    border-radius: 50%;
+    width: 120px;
+    border: solid white 5px;
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.comp *{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 14px;
+    background-color: #004F74;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 95%;
+    color: white;
+}
+
+.subTitle{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.67);
+}
+#g{
+    font-size: 14px;
+}
+.Language{
+    margin-bottom: -6px;
+}
+.detail{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#d .detail div p{
+    margin: 0 0 0 0;
+}
+.bubble span{
+    background-color:#3b6688;
+    color: #fff;
+    border-radius: 7px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+}
+.bubble{
+    margin-top: 10px;
+}
+.description{
+    color: rgba(0, 0, 0, 0.61);
+}
+#d .resume{
+    margin: 0;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+#d .date  {
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 13px;
+}
+#d .location{
+    font-size: 12px;
+    text-align: right;
+}
+#d .title{
+    font-weight: bold;
+    font-size: 15px;
+}
+.droite{
+    margin-left: -4px;
+}
