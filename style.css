@@ -2,12 +2,14 @@
     font-family: "OpenSans";
     src: url("font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("OpenType");
 }
-html{
+
+html {
     background-color: black;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     margin: 0;
     background-color: white;
     width: 21cm;
@@ -19,58 +21,70 @@ body{
 
     font-family: "OpenSans";
 }
-#g{
+
+#g {
     font-weight: bold;
     background-color: #006391;
     width: 33%;
     padding: 20px;
     color: white;
 }
-#d{
+
+#d {
     background-color: white;
     width: 67%;
     padding: 20px;
 }
-#d p{
+
+#d p {
 
     font-size: 14px;
     margin-bottom: 20px;
     text-align: justify;
 }
-#d .intro{
+
+#d .intro {
+    margin-top: -3px;
     width: 95%;
 }
-svg{
+
+svg {
     fill: white;
     width: 20px;
     margin-right: 5px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-#pp{
+
+#pp {
     border-radius: 50%;
     width: 120px;
     border: solid white 5px;
 }
-.comp{
+
+.comp {
     display: flex;
     flex-direction: row;
     font-size: 13px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.comp *{
+
+.comp * {
     margin-top: 0;
     margin-bottom: 0;
 }
-h1{
+
+h1 {
     font-size: 28px;
     margin-bottom: -10px;
     margin-top: 5px;
 }
-h2{
+
+h2 {
     font-size: 14px;
     background-color: #004F74;
     margin-left: -20px;
@@ -83,59 +97,98 @@ h2{
     color: white;
 }
 
-.subTitle{
+.subTitle {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.67);
 }
-#g{
+
+#g {
     font-size: 14px;
 }
-.Language{
+
+.Language {
     margin-bottom: -6px;
 }
-.detail{
+
+.detail {
     display: flex;
     flex-direction: row;
     width: 95%;
     justify-content: space-between;
     margin-top: 10px;
 }
-#d .detail div p{
+
+#d .detail div p {
     margin: 0 0 0 0;
 }
-.bubble span{
-    background-color:#3b6688;
+
+.bubble span {
+    background-color: #3b6688;
     color: #fff;
     border-radius: 7px;
     padding: 2px 5px 2px 5px;
     margin-right: 10px;
 }
-.bubble{
+
+.bubble {
     margin-top: 10px;
 }
-.description{
+
+.description {
     color: rgba(0, 0, 0, 0.61);
 }
-#d .resume{
+
+#d .resume {
     margin: 0;
     margin-bottom: 0;
     width: 95%;
 }
 
-#d .date  {
+#d .date {
     color: rgba(0, 0, 0, 0.37);
     font-size: 13px;
 }
-#d .location{
+
+#d .location {
     font-size: 12px;
     text-align: right;
 }
-#d .title{
+
+#d .title {
     font-weight: bold;
     font-size: 15px;
 }
-.droite{
+
+.droite {
     margin-left: -4px;
+}
+
+progress {
+    -webkit-appearance: none;
+    width: 70%;
+    height: 10px;
+}
+
+::-webkit-progress-bar {
+    background-color: #0000008a;
+    border-radius: 10px;
+}
+
+::-webkit-progress-value {
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+}
+
+.comptext {
+    margin-bottom: -5px;
+}
+
+#linkedinsvg{
+    width: 17px;
+}
+
+#githubsvg{
+    width: 17px;
 }
