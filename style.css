@@ -161,10 +161,6 @@ h2 {
     font-size: 15px;
 }
 
-.droite {
-    margin-left: -4px;
-}
-
 progress {
     -webkit-appearance: none;
     width: 70%;
