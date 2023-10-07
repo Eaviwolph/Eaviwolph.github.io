@@ -1,2 +1,3 @@
 # Eaviwolph.github.io
-Here is my CV, do not hesitate to visitate the rest of my GitHub
+Here is the repository of my CV that you can see [here](https://eaviwolph.github.io/).  
+Do not hesitate to visitate the rest of my GitHub
