@@ -24,6 +24,32 @@ body {
     font-family: "OpenSans";
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: -10px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 14px;
+    background-color: #004F74;
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 95%;
+    color: white;
+}
+
 /*
  * Left part
  */
@@ -62,34 +88,9 @@ svg {
     margin-right: 5px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 28px;
-    margin-bottom: -10px;
-    margin-top: 5px;
-}
-
-h2 {
-    font-size: 14px;
-    background-color: #004F74;
-    margin-left: -20px;
-    margin-top: 6px;
-    margin-bottom: 0px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 95%;
-    color: white;
-}
-
 .language {
-    margin-bottom: -6px;
+    margin: 0px;
+    margin-top: 8px;
 }
 
 progress {
@@ -142,10 +143,16 @@ progress {
     width: 95%;
 }
 
-.subTitle {
+#my-title {
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.sub-title {
+    font-size: 14px;
+    margin: 0px;
     color: rgba(255, 255, 255, 0.67);
 }
 
