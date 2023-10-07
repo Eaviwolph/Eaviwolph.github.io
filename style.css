@@ -1,3 +1,5 @@
+/* General style */
+
 @font-face {
     font-family: "OpenSans";
     src: url("font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf") format("OpenType");
@@ -22,30 +24,36 @@ body {
     font-family: "OpenSans";
 }
 
-#g {
+/*
+ * Left part
+ */
+
+#left {
     font-weight: bold;
     background-color: #006391;
     width: 33%;
     padding: 20px;
     color: white;
-}
-
-#d {
-    background-color: white;
-    width: 67%;
-    padding: 20px;
-}
-
-#d p {
-
     font-size: 14px;
-    margin-bottom: 20px;
-    text-align: justify;
 }
 
-#d .intro {
-    margin-top: -3px;
-    width: 95%;
+.comp {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comp * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#profil {
+    border-radius: 50%;
+    width: 120px;
+    border: solid white 5px;
 }
 
 svg {
@@ -59,25 +67,6 @@ a {
     text-decoration: none;
 }
 
-#pp {
-    border-radius: 50%;
-    width: 120px;
-    border: solid white 5px;
-}
-
-.comp {
-    display: flex;
-    flex-direction: row;
-    font-size: 13px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.comp * {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 h1 {
     font-size: 28px;
     margin-bottom: -10px;
@@ -88,6 +77,8 @@ h2 {
     font-size: 14px;
     background-color: #004F74;
     margin-left: -20px;
+    margin-top: 6px;
+    margin-bottom: 0px;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -97,68 +88,8 @@ h2 {
     color: white;
 }
 
-.subTitle {
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: rgba(255, 255, 255, 0.67);
-}
-
-#g {
-    font-size: 14px;
-}
-
-.Language {
+.language {
     margin-bottom: -6px;
-}
-
-.detail {
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-#d .detail div p {
-    margin: 0 0 0 0;
-}
-
-.bubble span {
-    background-color: #3b6688;
-    color: #fff;
-    border-radius: 7px;
-    padding: 2px 5px 2px 5px;
-    margin-right: 10px;
-}
-
-.bubble {
-    margin-top: 9px;
-}
-
-.description {
-    color: rgba(0, 0, 0, 0.61);
-}
-
-#d .resume {
-    margin: 0;
-    margin-bottom: 0;
-    width: 95%;
-}
-
-#d .date {
-    color: rgba(0, 0, 0, 0.37);
-    font-size: 13px;
-}
-
-#d .location {
-    font-size: 12px;
-    text-align: right;
-}
-
-#d .title {
-    font-weight: bold;
-    font-size: 15px;
 }
 
 progress {
@@ -181,10 +112,88 @@ progress {
     margin-bottom: -5px;
 }
 
-#linkedinsvg{
+#linkedinsvg {
     width: 17px;
 }
 
-#githubsvg{
+#githubsvg {
     width: 17px;
+}
+
+/*
+ * Right part
+ */
+
+#right {
+    background-color: white;
+    width: 67%;
+    padding: 20px;
+}
+
+#right p {
+
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#right .intro {
+    margin-top: -3px;
+    width: 95%;
+}
+
+.subTitle {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#right .detail div p {
+    margin: 0 0 0 0;
+}
+
+.bubble span {
+    background-color: #3b6688;
+    color: #fff;
+    border-radius: 7px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+}
+
+.bubble {
+    margin-top: 9px;
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.61);
+}
+
+#right .resume {
+    margin: 0;
+    margin-bottom: 0;
+    width: 95%;
+}
+
+#right .date {
+    color: rgba(0, 0, 0, 0.37);
+    font-size: 13px;
+}
+
+#right .location {
+    font-size: 12px;
+    text-align: right;
+}
+
+#right .title {
+    font-weight: bold;
+    font-size: 15px;
 }
