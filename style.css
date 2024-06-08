@@ -82,7 +82,7 @@ h2 {
     border: solid white 5px;
 }
 
-svg {
+.icons {
     fill: white;
     width: 20px;
     margin-right: 5px;
@@ -111,14 +111,6 @@ progress {
 
 .context {
     margin-bottom: -5px;
-}
-
-#linkedinsvg {
-    width: 17px;
-}
-
-#githubsvg {
-    width: 17px;
 }
 
 /*
