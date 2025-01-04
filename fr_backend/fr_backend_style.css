@@ -1,0 +1,13 @@
+.detail {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#right .intro {
+    margin-top: -10px;
+    margin-bottom: -5px;
+    width: 95%;
+}

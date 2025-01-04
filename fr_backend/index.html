@@ -5,44 +5,45 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <link href="fr_backend_style.css" rel="stylesheet">
 
 </head>
 
 <body>
 
     <section id="left">
-        <img id="profil" src="img/Profil.jpg">
+        <img id="profil" src="../img/Profil.jpg">
         <h1>Quentin</h1>
         <h1>Escudier</h1>
         <p id="my-title">Ingénieur informatique</p>
         <div class="comp">
-            <img class="icons" src="img/location.svg"></img>
-            <p>La Garenne-Colombes, France</p>
+            <img class="icons" src="../img/location.svg"></img>
+            <p>Paris, France</p>
         </div>
         <div class="comp">
-            <img class="icons" src="img/email.svg"></img>
+            <img class="icons" src="../img/email.svg"></img>
             <a href="mailto:quentinescudier@hotmail.fr">quentinescudier@hotmail.fr</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/phone.svg"></img>
+            <img class="icons" src="../img/phone.svg"></img>
             <a href="tel:+33610790767">+33 6 10 79 07 67</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/linkedin.svg"></img>
+            <img class="icons" src="../img/linkedin.svg"></img>
             <a href="https://www.linkedin.com/in/quentin-escudier/">linkedin.com/in/quentin-escudier</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/github.svg"></img>
+            <img class="icons" src="../img/github.svg"></img>
             <a href="https://github.com/Eaviwolph/">github.com/Eaviwolph</a>
         </div>
         <div>
-            <h2>COMPÉTENCES</h2>
+            <h2>SKILLS</h2>
             <p class="context">Go</p>
             <progress value="90" max="100"></progress>
             <p class="context">C / C++</p>
             <progress value="80" max="100"></progress>
-            <p class="context">Assembleur x86</p>
+            <p class="context">x86 Assembly</p>
             <progress value="70" max="100"></progress>
             <p class="context">Java / C#</p>
             <progress value="70" max="100"></progress>
@@ -73,7 +74,7 @@
     <section id="right">
         <p class="intro">
             Diplômé en tant qu'<b>ingénieur en informatique à l'EPITA</b>. Cherche un emploi en tant que
-            <b>Développeur bas niveau</b> ou <b>Développeur embarqué</b>.
+            <b>Ingénieur logiciel</b> ou <b>Développeur backend</b>.
         </p>
 
         <div>
@@ -119,6 +120,19 @@
             <h2>PROJETS D'ÉCOLE</h2>
             <div class="detail">
                 <div>
+                    <p class="title">Ping</p>
+                </div>
+                <div>
+                    <p class="date">(Juin 2022 - Juil 2022)</p>
+                </div>
+            </div>
+            <p class="resume">Un Web IDE inspiré de VSCode devant remplir des contraintes d'accessibilité.</p>
+            <div class="bubble">
+                <span>Java</span><span>HTML</span><span>CSS</span>
+            </div>
+
+            <div class="detail">
+                <div>
                     <p class="title">Tiger</p>
                 </div>
                 <div>
@@ -128,21 +142,6 @@
             <p class="resume">Un compilateur du langage Tiger qui transforme des fichiers Tiger en un exécutable.</p>
             <div class="bubble">
                 <span>C++</span><span>Flex</span><span>Bison</span>
-            </div>
-
-            <div class="detail">
-                <div>
-                    <p class="title">42sh</p>
-                </div>
-                <div>
-                    <p class="date">(Nov 2021 - Déc 2021)</p>
-                </div>
-            </div>
-            <p class="resume">Un Shell POSIX utilisant un lexer, un parser et un AST. Il implémente les
-                variables d'environnement, les redirections de filestreams et l'exécution
-                de fichiers shell.</p>
-            <div class="bubble">
-                <span>C</span><span>Shell</span>
             </div>
 
             <div class="detail">
@@ -163,6 +162,20 @@
 
         <div>
             <h2>PROJETS PERSONNELS</h2>
+            <div class="detail">
+                <div>
+                    <p class="title">mademoiselleblossom.fr</p>
+                </div>
+                <div>
+                    <p class="date">(Sep 2023 - Mar 2024)</p>
+                </div>
+            </div>
+            <p class="resume">Site internet professionel pour un fleuriste. Le backend est en Go et le front en React.
+            </p>
+            <div class="bubble">
+                <span>Go</span><span>MongoDB</span><span>AWS EC2</span><span>React</span>
+            </div>
+
             <div class="detail">
                 <div>
                     <p class="title">OSDev Kernel</p>
