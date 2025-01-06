@@ -4,6 +4,7 @@
     width: 95%;
     justify-content: space-between;
     margin-top: 5px;
+    line-height: 30px;
 }
 
 #right .intro {
