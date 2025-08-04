@@ -199,3 +199,103 @@ progress {
     font-weight: bold;
     font-size: 15px;
 }
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 5px;
+    line-height: 18px;
+}
+
+#right .intro {
+    margin-top: -10px;
+    margin-bottom: -5px;
+    width: 95%;
+}
+
+.bubble-skills p {
+    font-size: 14px;
+    background-color: #00243f;
+    color: #fff;
+    border-radius: 7px;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+}
+
+.bubble-skills {
+    margin-bottom: -16px;
+}
+
+.bubble {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.group-bubble {
+    display: ruby;
+}
+
+.bubble-framework {
+    font-size: 12px;
+}
+
+#my-title {
+    font-size: 18px;
+}
+
+li {
+    font-size: 14px;
+    padding-left: -12px;
+    list-style-type: '-  ';
+}
+
+ul {
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+.detail {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+#right {
+    padding-right: 15px;
+}
+
+#right h2 {
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+#left h2 {
+    margin-top: 20px;
+}
+
+#right .date {
+    color: rgb(0 0 0 / 50%);
+}
+
+#right a {
+    color: black;
+}
+
+#link {
+    font-size: 12px;
+    color: #2675b1;
+}
+
+@-moz-document url-prefix() {
+    #link {
+        font-size: 11px;
+        color: #2675b1;
+    }
+
+    .group-bubble {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

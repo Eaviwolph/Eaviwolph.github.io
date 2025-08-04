@@ -5,105 +5,166 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
-    <link href="style.css" rel="stylesheet">
-
+    <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <section id="left">
-        <img id="profil" src="img/Profil.jpg">
+        <img id="profil" src="./img/Profil.jpg">
         <h1>Quentin</h1>
         <h1>Escudier</h1>
         <p id="my-title">Ingénieur informatique</p>
         <div class="comp">
-            <img class="icons" src="img/location.svg"></img>
-            <p>La Garenne-Colombes, France</p>
-        </div>
-        <div class="comp">
-            <img class="icons" src="img/email.svg"></img>
+            <img class="icons" src="./img/email.svg"></img>
             <a href="mailto:quentinescudier@hotmail.fr">quentinescudier@hotmail.fr</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/phone.svg"></img>
+            <img class="icons" src="./img/phone.svg"></img>
             <a href="tel:+33610790767">+33 6 10 79 07 67</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/linkedin.svg"></img>
+            <img class="icons" src="./img/linkedin.svg"></img>
             <a href="https://www.linkedin.com/in/quentin-escudier/">linkedin.com/in/quentin-escudier</a>
         </div>
         <div class="comp">
-            <img class="icons" src="img/github.svg"></img>
+            <img class="icons" src="./img/github.svg"></img>
             <a href="https://github.com/Eaviwolph/">github.com/Eaviwolph</a>
         </div>
         <div>
-            <h2>COMPÉTENCES</h2>
-            <p class="context">Go</p>
-            <progress value="90" max="100"></progress>
-            <p class="context">C / C++</p>
-            <progress value="80" max="100"></progress>
-            <p class="context">Assembleur x86</p>
-            <progress value="70" max="100"></progress>
-            <p class="context">Java / C#</p>
-            <progress value="70" max="100"></progress>
-            <p class="context">Python</p>
-            <progress value="60" max="100"></progress>
-            <p class="context">Rust</p>
-            <progress value="30" max="100"></progress>
-            <p class="context">Ruby on Rails</p>
-            <progress value="60" max="100"></progress>
-            <p class="context">SQL / Mongo</p>
-            <progress value="80" max="100"></progress>
-        </div>
-        <div>
-            <h2>LANGUES</h2>
-            <p class="language">Français</p>
-            <p class="sub-title">Natif</p>
-            <p class="language">Anglais</p>
-            <p class="sub-title">Professionnel</p>
-            <p class="language">Espagnol</p>
-            <p class="sub-title">Basique</p>
-            <p class="language">Russe</p>
-            <p class="sub-title">Notions élémentaires</p>
-            <p class="language">Occitan</p>
-            <p class="sub-title">Avancé</p>
-        </div>
+            <h2>LANGAGES ET FRAMEWORKS</h2>
+            <div class="group-bubble">
+                <div class="bubble-skills">
+                    <p>Go</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>C</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>C++</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Rust</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Java <span class="bubble-framework">(Spring Boot, Android, Maven)</span></p>
+                </div>
+                <div class="bubble-skills">
+                    <p>C# <span class="bubble-framework">(.Net)</span></p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Ruby on Rails</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Python <span class="bubble-framework">(Django, Flask, Fast)</span></p>
+                </div>
+                <div class="bubble-skills">
+                    <p>JavaScript <span class="bubble-framework">(React, Next)</span></p>
+                </div>
+                <div class="bubble-skills">
+                    <p>ElasticSearch</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Mongo</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>Redis</p>
+                </div>
+                <div class="bubble-skills">
+                    <p>SQL</p>
+                </div>
+            </div>
+            <div>
+                <h2>DEVOPS</h2>
+                <div class="group-bubble">
+                    <div class="bubble-skills">
+                        <p>Docker</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>CI/CD</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>AWS</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>Terraform</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>Linux</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>Windows</p>
+                    </div>
+                    <div class="bubble-skills">
+                        <p>Git <span class="bubble-framework">(GitHub, GitLab)</span></p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>LANGUES</h2>
+                <p class="language">Français</p>
+                <p class="sub-title">Natif</p>
+                <p class="language">Anglais</p>
+                <p class="sub-title">Professionnel (TOEIC 865)</p>
+                <p class="language">Espagnol</p>
+                <p class="sub-title">Basique</p>
+                <p class="language">Russe</p>
+                <p class="sub-title">Notions élémentaires</p>
+                <p class="language">Occitan</p>
+                <p class="sub-title">Avancé</p>
+            </div>
     </section>
 
     <section id="right">
-        <p class="intro">
-            Diplômé en tant qu'<b>ingénieur en informatique à l'EPITA</b>. Cherche un emploi en tant que
-            <b>Développeur bas niveau</b> ou <b>Développeur embarqué</b>.
-        </p>
+        <h3 class="intro">
+            DÉVELOPPEUR BAS NIVEAU / EMBARQUÉ
+        </h3>
 
         <div>
             <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
             <div class="detail">
                 <div>
-                    <p class="title">SII</p>
-                    <p class="description">Consultant ingénieur logiciel système embarqué</p>
+                    <p class="title">Alten</p>
+                    <p class="description">Consultant Ingénieur logiciel système embarqué</p>
 
                 </div>
                 <div>
-                    <p class="date">(Oct 2024 - Dec 2024)</p>
-                    <p class="location">Vélizy-Villacoublay</p>
+                    <p class="date">(Fév 2025 - )</p>
                 </div>
             </div>
-            <p class="resume">Ingénieur logiciel système embarqué dans le secteur défense.
-                J'ai pu travailler en R&D sur un sujet d'analyse de données utilisant Python.</p>
+            <p class="resume">Chez le client Sagemcom depuis février 2025, sur le projet KPN
+                Video-Sound Board sur des missions de développement et de maintenance.
+                Autant sur la partie low level (Android AOSP et Linux) que sur la partie applicative
+                Android.
+            </p>
+            <div class="detail">
+                <div>
+                    <p class="title">SII</p>
+                    <p class="description">Consultant Ingénieur logiciel système embarqué</p>
+
+                </div>
+                <div>
+                    <p class="date">(Oct 2024 - Déc 2024)</p>
+                </div>
+            </div>
+            <p class="resume">Réalisation d'un modèle de prédiction basé sur des données clients confidentielles
+                utilisant Python, OpenStreetMap et OpenTopography.</p>
             <div class="detail">
                 <div>
                     <p class="title">Sagemcom</p>
                     <p class="description">Ingénieur logiciel système embarqué</p>
-
                 </div>
                 <div>
-                    <p class="date">(Fev 2024 - Aou 2024)</p>
-                    <p class="location">Bois-Colombes</p>
+                    <p class="date">(Fév 2024 - Aoû 2024)</p>
                 </div>
             </div>
-            <p class="resume">Stage de fin d'études axé sur le développement de systèmes STB Android ainsi qu'un projet
-                de recherche en traitement du signal audio.</p>
+            <p class="resume">Stage de fin d'études portant sur différents sujets, notamment :
+            <ul>
+                <li>Le développement d'un système de décodage TV (STB) Android pour un client néerlandais.</li>
+                <li>Un projet de recherche en traitement du signal audio dans le but d'annuler l'écho au
+                    sein de l'environnement du produit.</li>
+            </ul>
+            </p>
             <div class="detail">
                 <div>
                     <p class="title">Scalingo</p>
@@ -111,54 +172,20 @@
                 </div>
                 <div>
                     <p class="date">(Sep 2022 - Jan 2023)</p>
-                    <p class="location">Strasbourg</p>
                 </div>
             </div>
-            <p class="resume">Stage de développement backend en Go et Ruby on Rails.</p>
-
-            <h2>PROJETS D'ÉCOLE</h2>
-            <div class="detail">
-                <div>
-                    <p class="title">Tiger</p>
-                </div>
-                <div>
-                    <p class="date">(Mar 2022 - Avr 2022)</p>
-                </div>
-            </div>
-            <p class="resume">Un compilateur du langage Tiger qui transforme des fichiers Tiger en un exécutable.</p>
-            <div class="bubble">
-                <span>C++</span><span>Flex</span><span>Bison</span>
-            </div>
-
-            <div class="detail">
-                <div>
-                    <p class="title">42sh</p>
-                </div>
-                <div>
-                    <p class="date">(Nov 2021 - Déc 2021)</p>
-                </div>
-            </div>
-            <p class="resume">Un Shell POSIX utilisant un lexer, un parser et un AST. Il implémente les
-                variables d'environnement, les redirections de filestreams et l'exécution
-                de fichiers shell.</p>
-            <div class="bubble">
-                <span>C</span><span>Shell</span>
-            </div>
-
-            <div class="detail">
-                <div>
-                    <p class="title">OCR</p>
-
-                </div>
-                <div>
-                    <p class="date">(Sep 2020 - Déc 2020)</p>
-                </div>
-
-            </div>
-            <p class="resume">Un Optical Character Recognition qui permet de retourner le texte écrit sur une image.</p>
-            <div class="bubble">
-                <span>C</span><span>GTK</span>
-            </div>
+            <p class="resume">Stage de développement d'un produit PaaS développé en Go et Ruby on Rails regroupé sous
+                trois projets majeurs :
+            <ul>
+                <li>Traitement des problématiques liées à la gestion parallélisée des actions clients.</li>
+                <li>Implémentation d'un canal de communication prioritaire entre la machine client et son conteneur
+                    Docker.</li>
+                <li>Publication d'un article sur le site internet de l'entreprise : <br />
+                    <a href="https://scalingo.com/fr/blog/support-signaux-unix-pour-applications">
+                        <span id="link">https://scalingo.com/fr/blog/support-signaux-unix-pour-applications</span></a>
+                </li>
+            </ul>
+            </p>
         </div>
 
         <div>
@@ -168,13 +195,11 @@
                     <p class="title">OSDev Kernel</p>
                 </div>
                 <div>
-                    <p class="date">(Jan 2023 - Présent)</p>
+                    <p class="date">(Jan 2023 - Fév 2024)</p>
                 </div>
             </div>
-            <p class="resume">Kernel visant à créer une borne d'arcade.</p>
-            <div class="bubble">
-                <span>C</span><span>Assembleur x86</span>
-            </div>
+            <p class="resume">Élaboration d'un Kernel visant à créer une borne d'arcade. Développé en C et en
+                Assembleur x86, il est émulé grâce à l'outil Qemu.</p>
 
             <div class="detail">
                 <div>
@@ -184,20 +209,40 @@
                     <p class="date">(Mai 2022 - En 1 jour)</p>
                 </div>
             </div>
-            <p class="resume">Une intelligence artificielle de conduite autonome (utilisant un modèle génétique) créé
-                sur
-                Unity en utilisant C#.</p>
-            <div class="bubble">
-                <span>IA</span><span>C#</span><span>Unity</span>
+            <p class="resume">Une intelligence artificielle de conduite autonome utilisant un modèle génétique. Créée
+                sur Unity et développée en C#.</p>
+        </div>
+
+        <h2>PROJETS D'ÉCOLE</h2>
+        <div class="detail">
+            <div>
+                <p class="title">Ping</p>
+            </div>
+            <div>
+                <p class="date">(Juin 2022 - Juil 2022)</p>
             </div>
         </div>
+        <p class="resume">Un Web IDE inspiré de VSCode devant remplir des contraintes d'accessibilité. Le backend est
+            une API RESTful codée en Java. Le frontend est codé en HTML, CSS et JavaScript.</p>
+
+        <div class="detail">
+            <div>
+                <p class="title">OCR</p>
+            </div>
+            <div>
+                <p class="date">(Sep 2020 - Déc 2020)</p>
+            </div>
+
+        </div>
+        <p class="resume">Une IA de reconnaissance optique de caractères qui permet d'extraire un texte d'une image.
+            Le client lourd en C utilise GTK pour l'affichage.</p>
 
         <div>
             <h2>ÉDUCATION</h2>
             <div class="detail">
                 <div>
                     <p class="title">EPITA</p>
-                    <p class="description">Ingénieur en Informatique</p>
+                    <p class="description">Ingénieur en informatique</p>
                 </div>
                 <div>
                     <p class="date">(Sep 2019 - Oct 2024)</p>
@@ -207,8 +252,7 @@
             <div class="detail">
                 <div>
                     <p class="title">Griffith College</p>
-                    <p class="description">BAC+2</p>
-                    <p>Semestre dans une université irlandaise.</p>
+                    <p class="description">Semestre dans une université irlandaise.</p>
                 </div>
                 <div>
                     <p class="date">(Jan 2021 - Juin 2021)</p>
