@@ -84,3 +84,16 @@ ul {
     font-size: 12px;
     color: #2675b1;
 }
+
+@-moz-document url-prefix() {
+    #link {
+        font-size: 11px;
+        color: #2675b1;
+    }
+
+    .group-bubble {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
