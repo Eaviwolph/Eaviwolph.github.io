@@ -131,9 +131,11 @@ progress {
 }
 
 #right .intro {
-    margin-top: -13px;
-    margin-bottom: -13px;
+    padding: 3px;
     width: 95%;
+    font-weight: bolder;
+    text-align: center;
+    text
 }
 
 #my-title {
